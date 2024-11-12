@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/IRANSansWeb-Light.eot);
+    src: url(../fonts/IRANSansWeb-Light.woff);
+    src: url(../fonts/IRANSansWeb-Light.woff2);
+}
+.underheader{
+  background-image: linear-gradient(190deg, #FBFBFB 0%, #D2D2D2 100%);
+}
+.footer{
+  background-image: url(../image/background/2.png);
+}
+header{
+  background-image: url(../image/background/2.png);
+}
+.transparentt{
+  background-image: url(../image/background/1.png);
+}

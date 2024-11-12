@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دفتر مرکزی - وب سایت رسمی شرکت گلستان | golestan</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/setting.css" />
+    <link rel="stylesheet" href="./public/css/animation.css" />
+    <link
+      rel="shortcut icon"
+      href="./public/image/icon/1.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- main -->
+    <div
+      class="main mobile:w-full desktop:w-full desktop:flex desktop:flex-wrap desktop:justify-center desktop:bg-main dark:bg-[#c0bebe] desktop:font-normal"
+    >
+      <!-- wrapper -->
+      <div
+        class="wrapper mobile:w-full desktop:w-[80%] desktop:bg-white dark:bg-[#2c2c2c]"
+      >
+        <!-- header -->
+        <header
+          class="mobile:w-full mobile:h-[135px] mobile:flex mobile:justify-center mobile:items-center mobile:flex-col desktop:w-full desktop:h-header desktop:relative desktop:flex desktop:justify-evenly desktop:items-center"
+        >
+          <button
+            class="darkMode mobile:absolute mobile:right-[5%] bg-[#252525] p-2 rounded-full transition-colors desktop:absolute desktop:right-[5%] cursor-pointer"
+            id="darkModeButton"
+          >
+            <svg
+              width="30px"
+              height="30px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z"
+                  stroke="#AFB2B4"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+            </svg>
+          </button>
+          <div
+            class="logo desktop:absolute desktop:top-[50%] desktop:right-[15%]"
+          >
+            <img
+              src="./public/image/icon/1.png"
+              alt=""
+              class="w-[140px] h-[85px]"
+            />
+          </div>
+          <div
+            class="menuitem desktop:flex desktop:absolute desktop:top-[30%] desktop:right-[30%]"
+          >
+            <nav
+              class="mobile:text-[10px] mobile:font-['iransans'] mobile:flex mobile:font-normal desktop:font-['iransans'] desktop:text-[14px] desktop:flex desktop:font-normal"
+            >
+              <a href="./index.html" class="no-underline text-menue"
+                ><div class="dropdown dropdown-hover hover:text-white">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    صفحه اصلی
+                  </div>
+                </div></a
+              >
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="./sherkat.html" class="no-underline text-menue"
+                ><div
+                  class="dropdown dropdown-hover transition duration-1000 ease-linear"
+                >
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn hover:text-white transition duration-1000 ease-linear mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    شرکت گلستان
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="dropdown-content menu bg-hovermenue z-[1] w-40 shadow text-menue"
+                  >
+                    <li class="hover:text-white"><a> معرفی شرکت</a></li>
+                    <li class="hover:text-white"><a> تاریخچه گلستان</a></li>
+                    <li class="hover:text-white"><a>اخبار و اطلاعیه ها </a></li>
+                    <li class="hover:text-white"><a> مسئولیت ها</a></li>
+                    <li class="hover:text-white"><a> سازمان فروش</a></li>
+                    <li class="hover:text-white"><a> سازمان توزیع</a></li>
+                    <li class="hover:text-white"><a>برند ها </a></li>
+                  </ul>
+                </div></a
+              >
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="./product.html" class="no-underline text-menue">
+                <div class="dropdown dropdown-hover">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 hover:text-white mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    محصولات
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="dropdown-content menu bg-hovermenue text-menue z-[1] w-40 p-2 shadow"
+                  >
+                    <li class="hover:text-white"><a>چای</a></li>
+                    <li class="hover:text-white"><a>ناتس</a></li>
+                    <li class="hover:text-white"><a>ادوریه و چاشنی </a></li>
+                    <li class="hover:text-white"><a> برنج</a></li>
+                    <li class="hover:text-white"><a>زعفران و کشمش </a></li>
+                    <li class="hover:text-white"><a> دمنوش</a></li>
+                    <li class="hover:text-white"><a>حبوبات و غلات </a></li>
+                    <li class="hover:text-white"><a> عصاره های گیاهی</a></li>
+                    <li class="hover:text-white"><a>قند و شکر </a></li>
+                    <li class="hover:text-white"><a>هاتی نودل </a></li>
+                    <li class="hover:text-white"><a> سایر محصولات</a></li>
+                    <li class="hover:text-white"><a> گل کیس</a></li>
+                  </ul>
+                </div>
+              </a>
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="./weblog.html" class="no-underline text-menue"
+                ><div class="dropdown dropdown-hover">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 hover:text-white mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    وبلاگ
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="dropdown-content menu bg-hovermenue text-menue z-[1] w-36 p-0 shadow mobile:text-[10px]"
+                  >
+                    <li class="hover:text-white"><a>مجله گلستان</a></li>
+                  </ul>
+                </div></a
+              >
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="./lottery.html" class="no-underline text-menue">
+                <div class="dropdown dropdown-hover hover:text-white">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    قرعه کشی
+                  </div>
+                </div></a
+              >
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="./estekhdam.html" class="no-underline text-menue"
+                ><div class="dropdown dropdown-hover hover:text-white">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    استخدام
+                  </div>
+                </div></a
+              >
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="./tamas.html" class="no-underline text-menue"
+                ><div class="dropdown dropdown-hover">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 hover:text-white mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    تماس با ما
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="dropdown-content menu bg-hovermenue text-menue z-[1] w-40 p-0 shadow"
+                  >
+                    <li class="hover:text-white"><a> دفتر مرکزی</a></li>
+                    <li class="hover:text-white"><a> صدای مصرف کنندگان</a></li>
+                    <li class="hover:text-white"><a> باشگاه مشترکین</a></li>
+                  </ul>
+                </div></a
+              >
+              <div
+                class="desktop:w-[1px] desktop:h-[28px] desktop:bg-[#AFB2B4] desktop:mt-[1%]"
+              ></div>
+              <a href="#" class="no-underline text-menue"
+                ><div class="dropdown dropdown-hover">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn m-0 hover:text-white mobile:text-[10px] desktop:text-[14px]"
+                  >
+                    EN
+                  </div>
+                </div></a
+              >
+            </nav>
+          </div>
+        </header>
+        <!-- endheader -->
+        <!--map-->
+        <iframe class="w-full"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12951.293155047286!2d51.3310832!3d35.7551479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dfbc5b8aa02b3%3A0xab760682d3e14d27!2sGolestan%20Company!5e0!3m2!1sen!2sru!4v1731405087720!5m2!1sen!2sru"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!--endmap  -->
+        <!-- tamas -->
+        <div
+          class="tamas w-full bg-white dark:bg-[#2c2c2c] h-[520px] flex justify-center flex-col items-center"
+        >
+          <div class="golestandivaider bg-slate-300 w-[98%] h-[0.5px]"></div>
+          <div
+            class="underteatext mobile:w-[85%] font-['iransans'] desktop:w-[50%] leading-8 text-justify mt-[4%]"
+          >
+            <h2 class="text-redd text-[16px] mb-2">
+              تماس با دفتر مرکزی شرکت گلستان
+            </h2>
+            <p class="text-[14px] text-grayy mb-4">
+              نشانی :تهران - بلوار اشرفی اصفهانی - خیابان شهید مخبری - پلاک 32 -
+              شرکت گلستان
+            </p>
+            <p class="text-[14px] text-grayy mb-4">تلفن :48631000</p>
+            <p class="text-[14px] text-grayy mb-4">فکس :44410519</p>
+            <p class="text-[14px] text-grayy mb-4">کد پستی :1476785475</p>
+            <p class="text-[14px] text-grayy mb-4">
+              <span class="text-redd"> ایمیل صدای مصرف کنندگان:</span>
+              info@golestan.com
+            </p>
+          </div>
+        </div>
+        <!-- endtamas -->
+        <!-- social -->
+        <div
+          class="social w-full h-[90px] bg-[#EEEFEF] dark:bg-[#afa9a9] flex items-center justify-center"
+        >
+          <div class="group">
+            <img
+              src="./public/image/icon/f1.png"
+              alt=""
+              class="group-hover:hidden"
+            />
+            <img
+              src="./public/image/icon/f.png"
+              alt=""
+              class="group-hover:block hidden"
+            />
+          </div>
+          <div class="group">
+            <img
+              src="./public/image/icon/in2.png"
+              alt=""
+              class="group-hover:hidden"
+            />
+            <img
+              src="./public/image/icon/in.png"
+              alt=""
+              class="group-hover:block hidden"
+            />
+          </div>
+          <div class="group">
+            <img
+              src="./public/image/icon/insta2.png"
+              alt=""
+              class="group-hover:hidden"
+            />
+            <img
+              src="./public/image/icon/insta.png"
+              alt=""
+              class="group-hover:block hidden"
+            />
+          </div>
+          <div class="group">
+            <img
+              src="./public/image/icon/tel2.png"
+              alt=""
+              class="group-hover:hidden"
+            />
+            <img
+              src="./public/image/icon/tel.png"
+              alt=""
+              class="group-hover:block hidden"
+            />
+          </div>
+          <div class="group">
+            <img
+              src="./public/image/icon/aparat2.png"
+              alt=""
+              class="group-hover:hidden"
+            />
+            <img
+              src="./public/image/icon/icon1-1.png"
+              alt=""
+              class="group-hover:block hidden"
+            />
+          </div>
+          <div class="group">
+            <img
+              src="./public/image/icon/gl2.png"
+              alt=""
+              class="group-hover:hidden"
+            />
+            <img
+              src="./public/image/icon/gl.png"
+              alt=""
+              class="group-hover:block hidden"
+            />
+          </div>
+        </div>
+        <!-- endsocial -->
+        <!-- footer -->
+        <div class="w-full h-[20px] bg-[#ED1C24]"></div>
+        <footer class="w-full h-[380px]">
+          <div class="footer w-full h-full flex flex-col items-center">
+            <div
+              class="flex gap-x-4 mobile:w-[85%] desktop:w-[50%] justify-center items-center"
+            >
+              <div class="item flex flex-col justify-center items-center">
+                <img
+                  src="./public/image/footer/footer-icon1.png"
+                  alt=""
+                  class="mb-3 w-[100px] h-[80px]"
+                />
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider"
+                ></div>
+                <h3
+                  class="font-['iransans'] font-normal text-white text-[14px] my-2"
+                >
+                  چای گلستان
+                </h3>
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider mb-3"
+                ></div>
+                <div class="w-full">
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز ارل گری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای سیلان عطری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای صبحانه گلستان
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز هندوستان​
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز سیلان
+                  </p>
+                </div>
+              </div>
+              <div class="item flex flex-col justify-center items-center">
+                <img
+                  src="./public/image/footer/footer-icon2.png"
+                  alt=""
+                  class="mb-3 w-[100px] h-[80px]"
+                />
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider"
+                ></div>
+                <h3
+                  class="font-['iransans'] font-normal text-white text-[14px] my-2"
+                >
+                  تی بگ گلستان
+                </h3>
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider mb-3"
+                ></div>
+                <div class="w-full">
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز ارل گری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای سیلان عطری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای صبحانه گلستان
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز هندوستان​
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز سیلان
+                  </p>
+                </div>
+              </div>
+              <div class="item flex flex-col justify-center items-center">
+                <img
+                  src="./public/image/footer/footer-icon3.png"
+                  alt=""
+                  class="mb-3 w-[100px] h-[80px]"
+                />
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider"
+                ></div>
+                <h3
+                  class="font-['iransans'] font-normal text-white text-[14px] my-2"
+                >
+                  ادویه گلستان
+                </h3>
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider mb-3"
+                ></div>
+                <div class="w-full">
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز ارل گری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای سیلان عطری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای صبحانه گلستان
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز هندوستان​
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز سیلان
+                  </p>
+                </div>
+              </div>
+              <div class="item flex flex-col justify-center items-center">
+                <img
+                  src="./public/image/footer/footer-icon4.png"
+                  alt=""
+                  class="mb-3 w-[100px] h-[80px]"
+                />
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider"
+                ></div>
+                <h3
+                  class="font-['iransans'] font-normal text-white text-[14px] my-2"
+                >
+                  حبوبات گلستان
+                </h3>
+                <div
+                  class="line mobile:w-[100px] desktop:w-[145px] h-[1px] bg-divider mb-3"
+                ></div>
+                <div class="w-full">
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز ارل گری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای سیلان عطری
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای صبحانه گلستان
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز هندوستان​
+                  </p>
+                  <p
+                    class="font-['iransans'] font-normal text-[#BCBEC0] hover:text-white text-[11px] mb-1"
+                  >
+                    چای ممتاز سیلان
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <p
+                class="font-['iransans'] font-normal text-[#9F9F9F] text-[12px]"
+              >
+                All Right Reserved Golestan Company 2022-2025
+              </p>
+              <p
+                class="font-['iransans'] font-normal text-[#7B7B7B] text-[11px]"
+              >
+                Design By: Golestan Studio
+              </p>
+            </div>
+          </div>
+        </footer>
+        <!-- endfooter -->
+      </div>
+      <!-- endwrapper -->
+    </div>
+    <!-- endmain -->
+    <script>
+      let darkMode = document.querySelector(".darkMode");
+      console.log(darkMode);
+      let flag = true;
+      darkMode.addEventListener("click", function () {
+        if (flag === true) {
+          document.body.classList.add("dark");
+          document.getElementById(
+            "darkModeButton"
+          ).innerHTML = `  <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="#AFB2B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+</svg>`;
+          flag = false;
+        } else {
+          document.body.classList.remove("dark");
+          document.getElementById("darkModeButton").innerHTML = `
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="#AFB2B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+</svg>`;
+          flag = true;
+        }
+      });
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <script>
+      function initMap() {
+        var mapOptions = {
+          center: { lat: 35.6895, lng: 51.389 }, // مختصات تهران
+          zoom: 10,
+        };
+
+        var map = new google.maps.Map(
+          document.getElementById("map"),
+          mapOptions
+        );
+      }
+    </script>
+  </body>
+</html>
